@@ -2,9 +2,9 @@
   <img src='https://raw.github.com/diclophis/fasp-blockchain/master/doc/LogoABitFaster.png'/>
 </p>
 
-# ABitFaster: Towards a faster BitCoin blockchain
+# ABitFaster
 
-## Why?
+## Why?  Towards a faster BitCoin blockchain
 
 To securely send and receive [BitCoins](http://bitcoin.org/en/), it's important to have a full copy of the BitCoin blockchain, BitCoin's public ledger and shared history.  However, the BitCoin blockchain is currently 9GB and growing, which is a serious impediment to new user adoption due to an initial download that can take days.
 
