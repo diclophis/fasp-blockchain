@@ -1,6 +1,8 @@
-# ![ABitFaster](doc/LogoABitFaster.png) ABitFaster
+<p style="float: right">
+  <img src='https://raw.github.com/diclophis/fasp-blockchain/master/doc/LogoABitFaster.png'/>
+</p>
 
-# Towards a faster BitCoin blockchain
+# ABitFaster: Towards a faster BitCoin blockchain
 
 ## Why?
 
