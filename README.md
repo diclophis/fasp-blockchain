@@ -1,4 +1,4 @@
-<p style="float: right">
+<p align="right">
   <img src='https://raw.github.com/diclophis/fasp-blockchain/master/doc/LogoABitFaster.png'/>
 </p>
 
