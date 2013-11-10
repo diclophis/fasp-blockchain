@@ -41,6 +41,6 @@ MultiBit is a fairly new SPV wallet that uses an alternative verification scheme
 * Greater susceptibility to DoS attacks.
 * Not relaying transactions, thus making it more obvious what BitCoins you own.  (This will be fixed in the future.)
 
-<p>
+<p align="right">
   <img src='https://raw.github.com/diclophis/a-bit-faster/master/doc/bitcoin.png'/>
 </p>
