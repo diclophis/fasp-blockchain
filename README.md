@@ -10,10 +10,12 @@ To securely send and receive [BitCoins](http://bitcoin.org/en/), it's important 
 
 For BitCoins to become mainstream, any roadblocks to getting started should be removed.  In order to improve the BitCoin first time experience (FTUX), we are utilizing Aspera's fasp technology for significantly accelerated blockchain downloads.
 
-## How?
+## What?
 
 [Aspera's fasp](http://asperasoft.com/technology/transport/fasp/) transport protocol "transfers achieve speeds that are hundreds of times faster than FTP/HTTP and provide a guaranteed delivery time regardless of file size, transfer distance or network conditions, including transfers over satellite, wireless, and inherently long distance and unreliable international links."  We take advantage of the speed and reliability of the fasp protocol to pull the full BitCoin blockchain down from an Amazon EC2 node to clients' computers very quickly.
 
-## Getting Started
+ABitFaster is a product of the Launch 2013 Hackathon in San Francisco by Jon Bardin and Andrew Cantino.
+
+## How?
 
 For now, just run `make` in this repository, enter the password `aspera`, and the blockchain will start to transfer.
