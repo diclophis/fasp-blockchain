@@ -12,14 +12,7 @@ For BitCoins to become mainstream, any roadblocks to getting started should be r
 
 ## How?
 
-[Aspera's fasp](http://asperasoft.com/technology/transport/fasp/) transport protocol "transfers achieve speeds that are hundreds of times faster than FTP/HTTP and provide a guaranteed delivery time regardless of file size, transfer distance or network conditions, including transfers over satellite, wireless, and inherently long distance and unreliable international links."
+[Aspera's fasp](http://asperasoft.com/technology/transport/fasp/) transport protocol "transfers achieve speeds that are hundreds of times faster than FTP/HTTP and provide a guaranteed delivery time regardless of file size, transfer distance or network conditions, including transfers over satellite, wireless, and inherently long distance and unreliable international links."  We take advantage of the speed and reliability of the fasp protocol to pull the full BitCoin blockchain down from an Amazon EC2 node to clients' computers very quickly.
 
 ## Getting Started
 
-
-
-
-
-## Server
-
-http://linux.ringingliberty.com/bitcoin/
