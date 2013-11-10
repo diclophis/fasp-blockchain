@@ -6,8 +6,9 @@ blockchain.tar.gz:
 	mv /tmp/blockchain.tar.gz .
 	gunzip blockchain.tar.gz
 	tar -xvf blockchain.tar
-	echo "Now, run 'make client' and copy the contents of blockchain into the appropriate location in ~/Library/Application Support/Bitcoin/blocks."
-	echo "Then, launch the Bitcoin-Qt application now present in this directory."
+	rm blockchain.tar
+	@echo "Now, run 'make client' and copy the contents of blockchain into the appropriate location in ~/Library/Application Support/Bitcoin/blocks."
+	@echo "Then, launch the Bitcoin-Qt application now present in this directory."
 
 # Install the current Bitcoin client in this directory
 client: bitcoin-0.8.5-macosx.dmg
@@ -29,5 +30,5 @@ fasp-blockchain: src/FaspBlockchainApp.java
 clean:
 	rm -f bitcoin-0.8.5-macosx.dmg # cleanup client disk image
 	rm -Rf Bitcoin-Qt.app # cleanup client application
-	rm -f blockchain.tar # cleanup previously-fetched blockchain
+	rm -rf blockchain # cleanup previously-fetched blockchain
 	rm -Rf build # cleanup beta Java client build directory
