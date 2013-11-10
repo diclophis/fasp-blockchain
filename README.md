@@ -20,7 +20,7 @@ In the Terminal, just run `make` in this repository, and the blockchain will sta
 
 ### Full details
 
-After you run `make`, we launch a bundled copy of Aspera's command-line [fasp](http://download.asperasoft.com/download/docs/ascp/2.7/html/index.html) client (`ascp`) and start to download a cached copy of the BitCoin blockchain from an Amazon EC2 server.  When the download finishes, we expand the archive and provide instructions to you on how to continue.  You will run `make client` to fetch, expand, and copy the current official BitCoin client (if you don't already have it), then you'll copy the fetched blockchain into your new client's blockchain directory.  From there, you should be able to just launch the client and it will be ready to go after a few additional minutes of synchronization.
+After you run `make`, we launch a bundled copy of Aspera's [command-line fasp](http://download.asperasoft.com/download/docs/ascp/2.7/html/index.html) client (`ascp`) and start to download a cached copy of the BitCoin blockchain from an Amazon EC2 server.  When the download finishes, we expand the archive and provide instructions to you on how to continue.  You will run `make client` to fetch, expand, and copy the current official BitCoin client (if you don't already have it), then you'll copy the fetched blockchain into your new client's blockchain directory.  From there, you should be able to just launch the client and it will be ready to go after a few additional minutes of synchronization.
 
 ## Other questions?
 
