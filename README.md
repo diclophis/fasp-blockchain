@@ -1,5 +1,5 @@
 <p>
-  <img src='https://raw.github.com/diclophis/fasp-blockchain/master/doc/LogoABitFaster.png'/>
+  <img src='https://raw.github.com/diclophis/a-bit-faster/master/doc/LogoABitFaster.png'/>
 </p>
 
 # ABitFaster
