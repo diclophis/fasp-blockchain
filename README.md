@@ -16,3 +16,4 @@ For BitCoins to become mainstream, any roadblocks to getting started should be r
 
 ## Getting Started
 
+For now, just run `make` in this repository, enter the password `aspera`, and the blockchain will start to transfer.
