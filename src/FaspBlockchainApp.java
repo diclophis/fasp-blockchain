@@ -1,7 +1,7 @@
 import com.asperasoft.cmdclient.CmdClient;
 import com.asperasoft.cmdclient.CmdReply;
 
-public class CmdClientSample{
+public class FaspBlockchainApp {
     public static void main(String args[]) {
         CmdReply rpy 		= null;
         CmdClient client 	= null;
@@ -26,12 +26,10 @@ public class CmdClientSample{
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
-        }
-
-            finally {
-                System.out.println("Disconnecting client");
-                if ((null != client) && (client.isConnected()))
-                client.disconnect();
+        } finally {
+            System.out.println("Disconnecting client");
+            if ((null != client) && (client.isConnected()))
+            client.disconnect();
         }
     }
 }
