@@ -18,4 +18,4 @@ ABitFaster is a product of the Launch 2013 Hackathon in San Francisco by Jon Bar
 
 ## How?
 
-For now, just run `make` in this repository, enter the password `aspera`, and the blockchain will start to transfer.
+For now, just run `make` in this repository, and the blockchain will start to transfer.

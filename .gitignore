@@ -1,1 +1,5 @@
 build
+bitcoin-0.8.5-macosx.dmg
+Bitcoin-Qt.app
+.DS_Store
+blockchain.tar.gz
