@@ -2,11 +2,13 @@
 
 # Fetch and uncompress the current blockchain over Aspera's fasp protocol from the Launch Hackathon EC2 node.
 blockchain.tar.gz:
-	ASPERA_SCP_PASS=aspera ASPERA_SCP_COOKIE=`hostname` bin/mac-intel-10.6/ascp xfer@hack1.aspera.us:/btc/blockchain.tar.gz /tmp/blockchain.tar.gz
-	mv /tmp/blockchain.tar.gz .
-	gunzip blockchain.tar.gz
-	tar -xvf blockchain.tar
-	rm blockchain.tar
+	# ASPERA_SCP_PASS=aspera ASPERA_SCP_COOKIE=`hostname` bin/mac-intel-10.6/ascp xfer@hack1.aspera.us:/btc/blockchain.tar.gz /tmp/blockchain.tar.gz
+	ASPERA_SCP_PASS=hack2013 ASPERA_SCP_COOKIE=`hostname` bin/mac-intel-10.6/ascp -l 100M bitcoin@hack2.aspera.us:/blockchain.dat /tmp/blockchain.dat
+	# scp bitcoin@hack2.aspera.us:~/blockchain.dat /tmp/blockchain.dat
+	mv /tmp/blockchain.dat
+	# gunzip blockchain.tar.gz
+	# tar -xvf blockchain.tar
+	# rm blockchain.tar
 	@echo "Now, run 'make client' and copy the contents of blockchain into the appropriate location in ~/Library/Application Support/Bitcoin/blocks."
 	@echo "Then, launch the Bitcoin-Qt application now present in this directory."
 
